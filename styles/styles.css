@@ -64,15 +64,19 @@ h1{
     size: 80%;
     margin-right: 20px;
     margin-bottom: 10px;
-    background-color: pink;
+    background-color: rgb(252, 111, 134);
     color: white;
     border-style: solid;
     border-width: 1px;
-    border-radius: 25%;
+    border-radius: 50px;
     text-decoration: none;
 
 }
 
 .navigation-element-button1:hover{
+    opacity: 80%;
+}
+
+.navigation-element-link > img:hover{
     opacity: 80%;
 }
