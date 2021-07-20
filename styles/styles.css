@@ -55,6 +55,8 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 25%;
+    text-decoration: none;
+
 }
 
 .navigation-element-button1:hover{
