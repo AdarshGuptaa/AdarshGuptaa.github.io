@@ -2,6 +2,16 @@
     background-color: black;
 }
 
+h1{
+    display: block;
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(252, 111, 134);
+    font-family: 'Bebas Neue';
+}
+
 .navigation-bar{
     list-style: none;
     margin: 0;
@@ -11,16 +21,20 @@
     border-bottom-style: solid;
     border-bottom-color: pink;
     border-bottom-width: 1px;
+    border-top-style: solid;
+    border-top-color: pink;
+    border-top-width: 1px;
 }
 
 .navigation-element-left{
     float: left;
+    padding-top: 5px;
 }
 
 .navigation-element-right{
     float: right;
+    padding-top: 5px;
 }
-
 
 .navigation-element-link{
     display: block;
