@@ -1,5 +1,7 @@
 .body-class{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -8,6 +10,7 @@ h1{
     font-size: 50px;
     text-align: center;
     text-decoration: none;
+    word-spacing: 10px;
     color: rgb(252, 111, 134);
     font-family: 'Bebas Neue';
 }
@@ -19,7 +22,7 @@ h1{
     overflow: hidden;
     justify-content:space-between;
     border-bottom-style: solid;
-    border-bottom-color: pink;
+    border-bottom-color:pink;
     border-bottom-width: 1px;
     border-top-style: solid;
     border-top-color: pink;
@@ -29,11 +32,14 @@ h1{
 .navigation-element-left{
     float: left;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .navigation-element-right{
     float: right;
     padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 .navigation-element-link{
@@ -77,6 +83,35 @@ h1{
     opacity: 80%;
 }
 
-.navigation-element-link > img:hover{
-    opacity: 80%;
+.cart-menu{
+    position: fixed;
+    background-color: rgb(252, 121, 143);
+    top: 140px;
+    right: 15px;
+    border-left-color: pink;
+    border-left-style: solid;
+    border-left-width: 2.5px;
+    border-top-color: pink;
+    border-top-style: solid;
+    border-top-width: 2.5px;
+    border-right-color: pink;
+    border-right-style: solid;
+    border-right-width: 2.5px;
+    border-bottom-color: pink;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+    width: 250px;
+    height: 810px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cart-menu-element{
+    font-family:'Oswald';
+    font-size: 35px;
+    text-align: center;
+    font-weight:bold;
+    color: white;
 }
