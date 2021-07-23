@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h1{
+.title-header{
     display: block;
     margin: 0px;
     font-size: 50px;
@@ -76,7 +76,6 @@ h1{
     border-width: 1px;
     border-radius: 50px;
     text-decoration: none;
-
 }
 
 .navigation-element-button1:hover{
@@ -86,7 +85,7 @@ h1{
 .cart-menu{
     position: fixed;
     background-color: rgb(252, 121, 143);
-    top: 140px;
+    top: 145px;
     right: 15px;
     border-left-color: pink;
     border-left-style: solid;
@@ -108,10 +107,24 @@ h1{
     border-bottom-right-radius: 25px;
 }
 
-.cart-menu-element{
+.cart-menu-heading{
     font-family:'Oswald';
     font-size: 35px;
     text-align: center;
     font-weight:bold;
     color: white;
+}
+
+.cart-menu >.cart-element-center{  
+    position: relative;
+    margin-top: 450px;
+    align-content:center;
+}
+
+.cart-menu-element{
+    font-family:'Oswald';
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    padding: 20px;
 }
