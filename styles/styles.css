@@ -128,3 +128,10 @@
     color: black;
     padding: 20px;
 }
+
+.heading-two{
+    font-family:'Oswald';
+    color:rgb(252, 121, 143);
+    font-size: 50px;
+    font-weight: 400;
+}
