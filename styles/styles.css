@@ -149,3 +149,33 @@
     margin-right: 20px;
     margin-bottom: 10px;
 }
+
+.images-aboutus{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.image-collage-aboutus{
+    display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 30px;
+  border-bottom-width: 1px;
+  border-bottom: pink;
+  border-style: solid;
+  margin-bottom: 10px;
+
+}
+
+.image-collage-aboutus-column{
+    -ms-flex: 10%; /* IE 10 */
+  flex: 5%;
+  padding: 0 8px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
