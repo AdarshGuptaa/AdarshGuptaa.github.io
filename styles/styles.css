@@ -179,3 +179,10 @@
 * {
     box-sizing: border-box;
 }
+
+.menu_items{
+    position: fixed;
+    width: 1050px;
+    left: 20px;
+    top: 150px;
+}
