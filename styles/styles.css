@@ -241,3 +241,33 @@
     border-width: 0px;
     margin-left: 100px;
 }
+
+.login-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.login-register-Button{
+    background-color: rgb(252, 121, 143);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: 900;
+    font-family:'PT Sans';
+    margin-top: 30px;
+}
