@@ -83,10 +83,10 @@
 }
 
 .cart-menu{
-    position: relative;
+    position: fixed;
     background-color: rgb(252, 121, 143);
-    top: 8px;
-    left: 1635px;
+    top: 175px;
+    right: 45px;
     border-left-color: pink;
     border-left-style: solid;
     border-left-width: 2.5px;
@@ -99,7 +99,7 @@
     border-bottom-color: pink;
     border-bottom-style: solid;
     border-bottom-width: 2.5px;
-    width: 250px;
+    width: 330px;
     height: 405px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -117,7 +117,7 @@
 
 .cart-menu >.cart-element-center{  
     position: relative;
-    margin-top: 60px;
+    margin-top: 450px;
     align-content:center;
 }
 
@@ -162,9 +162,7 @@
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
   padding: 30px;
-  border-bottom-width: 1px;
-  border-bottom: pink;
-  border-style: solid;
+  border-style: none;
   margin-bottom: 10px;
 
 }
@@ -181,12 +179,16 @@
 }
 
 .menu-table-div{
-    width: 1575px;
-    left: 20px;
-    bottom: 415px;
+    width: 1430px;
+    left: 17px;
+    bottom: -10px;
     overflow: auto;
     position: relative;
     margin-left: 20px;
+    padding: 20px;
+    margin: 30px; 
+    border-radius: 30px; 
+    background-color: rgb(36, 34, 34);
 }
 
 .menu-table{
@@ -237,7 +239,7 @@
     color: white;
     font-size: 35px;    
     text-align: left;
-    background-color: black;
+    background-color: rgb(36, 34, 34);
     border-width: 0px;
     margin-left: 100px;
 }
