@@ -10,8 +10,10 @@
     font-size: 50px;
     text-align: center;
     text-decoration: none;
+    padding-bottom: 10px;
     word-spacing: 10px;
     color: rgb(252, 111, 134);
+    background-color: rgb(36, 34, 34);
     font-family: 'Bebas Neue';
 }
 
@@ -20,12 +22,13 @@
     margin: 0;
     padding: 0;
     overflow:hidden;
+    background-color: rgb(36, 34, 34);
     justify-content:space-between;
     border-bottom-style: solid;
-    border-bottom-color:pink;
+    border-bottom-color:rgb(250, 216, 222);
     border-bottom-width: 1px;
     border-top-style: solid;
-    border-top-color: pink;
+    border-top-color: rgb(250, 216, 222);
     border-top-width: 1px;
 }
 
@@ -179,8 +182,7 @@
 }
 
 .menu-table-div{
-    width: 1430px;
-    left: 17px;
+    width: 1450px;
     bottom: -10px;
     overflow: auto;
     position: relative;
@@ -192,7 +194,7 @@
 }
 
 .menu-table{
-    width: 100%;
+    width: 100%;    
 }
 
 .menu-table, tr,td{
@@ -272,4 +274,8 @@
     font-weight: 900;
     font-family:'PT Sans';
     margin-top: 30px;
+}
+
+.text-align-center{
+    text-align: center;
 }
