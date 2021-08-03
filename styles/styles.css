@@ -47,8 +47,8 @@
 
 .navigation-element-link{
     display: block;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
@@ -67,11 +67,12 @@
     font-family: 'Oswald';
     padding-top: 1px;
     padding-bottom: 1px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
     vertical-align: baseline;
     size: 80%;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
     margin-bottom: 10px;
     background-color: rgb(252, 111, 134);
     color: white;
