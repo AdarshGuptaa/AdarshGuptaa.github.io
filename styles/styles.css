@@ -89,8 +89,8 @@
 .cart-menu{
     position: fixed;
     background-color: rgb(252, 121, 143);
-    top: 183px;
-    right: 45px;
+    top: 19.5%;
+    left: 80%;
     border-left-color: pink;
     border-left-style: solid;
     border-left-width: 2.5px;
@@ -103,8 +103,8 @@
     border-bottom-color: pink;
     border-bottom-style: solid;
     border-bottom-width: 2.5px;
-    width: 330px;
-    height: 405px;
+    width: 17.5%;
+    height: 40%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -183,7 +183,7 @@
 }
 
 .menu-table-div{
-    width: 1450px;
+    width: 75%;
     bottom: -10px;
     overflow: auto;
     position: relative;
