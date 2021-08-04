@@ -87,28 +87,15 @@
 }
 
 .cart-menu{
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
     position: fixed;
-    background-color: rgb(252, 121, 143);
-    top: 20%;
-    left: 80%;
-    border-left-color: pink;
-    border-left-style: solid;
-    border-left-width: 2.5px;
-    border-top-color: pink;
-    border-top-style: solid;
-    border-top-width: 2.5px;
-    border-right-color: pink;
-    border-right-style: solid;
-    border-right-width: 2.5px;
-    border-bottom-color: pink;
-    border-bottom-style: solid;
-    border-bottom-width: 2.5px;
-    width: 18% ;
-    height: 40%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    right: 2%;
+    background-color:rgb(252, 111, 134);
+    border-radius: 30px;
+    width: 19%;
+    top: 19.5%;
 }
 
 .cart-menu-heading{
