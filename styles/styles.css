@@ -280,3 +280,13 @@
 .text-align-center{
     text-align: center;
 }
+
+.menu-pdf-link:hover >img{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.menu-pdf-link:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
