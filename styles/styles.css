@@ -290,3 +290,7 @@
     cursor: pointer;
     opacity: 80%;
 }
+
+.login-register-Button: hover{
+    opacity: 80%;
+}
