@@ -113,13 +113,15 @@
     font-size: 2rem;
     margin-top: 14%;
     font-family: 'Oswald';
-    vertical-align: baseline;
     width: 100%;
     background-color: whitesmoke;
     color: black;
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
+    left: auto;
+    right: auto;
+    display: block;
     text-decoration: none;
 }
 
@@ -288,9 +290,5 @@
 
 .menu-pdf-link:hover{
     cursor: pointer;
-    opacity: 80%;
-}
-
-.login-register-Button: hover{
     opacity: 80%;
 }
