@@ -196,14 +196,17 @@
 }
 
 .menu-table{
-    width: 100%;    
+    width: 75%;
+    bottom: auto;
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    padding: 20px;
+    margin: 30px; 
+    border-radius: 30px; 
+    background-color: rgb(36, 34, 34);  
 }
 
-.menu-table, tr,td{
-    border-bottom: white;
-    border-bottom-width: 0px;
-    border-bottom-style: solid;
-}
 
 .menu-table-heading1{
     font-family:'Oswald';
@@ -219,7 +222,7 @@
     color:lightpink ;
     font-size: 35px;
     font-weight: 400;
-    padding-bottom: 2.5px;
+    padding: 10px;
     text-align: left;
 }
 
@@ -229,13 +232,14 @@
     font-size: 27.5px;
     font-weight: 400;
     text-align: left;
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 .menu-table-regular-style{
     font-family: 'Ubuntu';
     color: white;
-    font-size: 30px;    
+    font-size: 30px; 
+    padding: 10px;   
     text-align: left;
 }
 
@@ -283,12 +287,34 @@
     text-align: center;
 }
 
-.menu-pdf-link:hover >img{
-    cursor: pointer;
-    opacity: 80%;
+.dropdown{
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    margin-left: 30px;
+    margin-top: 20px; 
+    
 }
 
-.menu-pdf-link:hover{
-    cursor: pointer;
-    opacity: 80%;
+.item {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px; 
+    background-color: rgb(36, 34, 34);
+    transition: 0.4s;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .item {
+    padding-bottom: 10%;
+    background-color: rgb(206, 173, 178) ;
+}
+
+.dropdown:hover .menu-table-heading2{
+    color: black;
 }
