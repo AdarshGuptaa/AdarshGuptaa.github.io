@@ -304,7 +304,7 @@
     border: none;
     border-radius: 30px; 
     background-color: rgb(36, 34, 34);
-    transition-delay: 0.1s;
+    transition-delay: 0.3s;
     transition-duration: 0.6s;
 }
 
@@ -312,12 +312,12 @@
     display: none;
     font-style: italic;
     line-height: 50px;
+    
 }
 
-.dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .item {
-    padding-bottom: 1%;
+    
     background-color: rgb(206, 173, 178) ;
 }
 
@@ -331,7 +331,7 @@
 
 .dropdown:hover .appear{
     display: inline-block;
-    transition-delay: 2s;
+    
 }
 
 
